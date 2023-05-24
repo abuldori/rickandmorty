@@ -1,0 +1,64 @@
+  .danger {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(201, 9, 9, 0.76);
+    text-shadow: 2px 2px 6px rgba(249, 247, 250, 0.548);
+
+  }
+.form {
+  border: 1px solid #ccc;
+  background-color: rgba(17, 131, 13, 0.712);
+  padding: 50px;
+  width: 400px;
+  height: 450px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.label {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 70px;
+  font-size: xx-large;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.label span {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color:white
+}
+
+.label input {
+  padding: 10px;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #060706b2;
+}
+
+.button {
+  background-color: #33ff0052;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  color:white;
+  background-color: #33ff0044;
+  box-shadow: 0 0 1rem #0000009b, 0 0 4rem #33ff009b, 0 0 8rem #0000009b;
+}

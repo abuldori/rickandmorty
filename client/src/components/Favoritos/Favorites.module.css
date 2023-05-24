@@ -1,0 +1,35 @@
+
+.selects{
+    background: linear-gradient(to bottom right, yellow, green);
+    font-family: cursive;
+    border-radius: 5rem;
+    height: 3rem;
+    width: 11rem;
+    font-size: medium;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+    margin: .8rem 8rem 2rem 15rem;
+    text-align: center;
+    cursor: pointer;
+    border: transparent;
+    
+}
+
+
+.op{
+    background-color: rgba(18, 212, 11, 0.959);
+    font-family: cursive;
+    border-radius: 5%;
+    font-size: medium;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.op2{
+    background-color: rgba(193, 235, 5, 0.76);
+    font-family: cursive;
+    border-radius: 5%;
+    font-size: medium;
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(37, 35, 35);
+}
+

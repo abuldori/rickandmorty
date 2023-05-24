@@ -1,0 +1,81 @@
+.contenedorPadre {
+  width: 320px;
+  max-width: 1200px;
+  display: flex;
+  display: inline-block;
+  align-items: stretch;
+  flex-wrap: wrap; /* Agregar esta propiedad */
+}
+
+@media (max-width: 745px) {
+  .contenedorPadre {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}
+.contenedorCards{
+  padding: 10px;
+  background-image: linear-gradient(to bottom right, #0f720f, #65b503, #f8de7e);
+  width: 250px;
+  height: 450px;
+  border: 1px solid #dae3dc;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 10px;
+  text-align: center;
+  font-family:cursive;
+  color:rgb(220, 241, 219);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.774);
+}
+
+.contenedorCards img {
+  border-radius: 5%;
+  width: 100%;
+  height: 50%; /* La imagen ocupará todo el ancho de la tarjeta */
+  object-fit: cover; /* Ajusta la imagen para cubrir todo el espacio disponible sin deformarla */
+}
+
+.contenedorCards img:hover {
+  box-shadow: 0px 0px 10px rgba(0, 13, 13, 0.626);
+  transform: scale(1.01);
+}
+
+.button {
+  background: #c31111cc;
+  background-size: cover;
+  padding: 1px;
+  height: 30px;
+  width: 30px;
+  border: none; /* Quita el borde */
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* reducimos la opacidad de la sombra */
+  transition: all 0.2s; /* reducimos el tiempo de transición */
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(235, 229, 221);
+  font-size: 12px;
+  margin: 0 auto; /* Centra horizontalmente */
+  display: block; /* Para que ocupe todo el ancho disponible */
+}
+
+.button:hover {
+  width: 40px; /* reducimos el tamaño del cambio */
+  height: 30px; /* reducimos el tamaño del cambio */
+  border-radius: 6px; /* reducimos el tamaño del cambio */
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2); /* reducimos la opacidad de la sombra */
+}
+
+.btnFav{
+  background-color: transparent;
+  border: none;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 80%;
+  font-size: 20px;
+}
+
+
+

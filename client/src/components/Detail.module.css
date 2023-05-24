@@ -1,0 +1,63 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+  .cointeinerCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    background-color: rgb(66, 145, 48);
+    border-radius: 102px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  .cointeinerCard .img{
+    border-radius: 50%;
+    width: 130%;
+  }
+  .cointeinerCard:hover {
+    box-shadow: 0px 0px 20px 10px rgba(228, 217, 217, 0.4);
+   
+  }
+  
+  .label {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: -12rem;
+    margin-right: -19rem;
+    color:#ffffff;
+    font-family: cursive;
+    max-width: 400px; /* Establece una anchura máxima */
+  
+  }
+  
+  .p {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: -10rem;
+    margin-right: -19rem;
+    color:#ffffff;
+    font-family: cursive;
+    max-width: 200px; /* Establece una anchura máxima */
+  
+  }
+  .loading{
+    color: #efe5e5;
+    font-size: 50px;
+  }
+
+  
+  
+  
+  
+
+

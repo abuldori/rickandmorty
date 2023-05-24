@@ -1,0 +1,63 @@
+.conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    background-color: rgba(210, 200, 200, 0.474);
+    border-radius: 20rem;
+    width: 17rem;
+    height: 2rem;
+    border: transparent;
+    color: rgb(234, 240, 235);
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(3, 3, 3, 0.849);
+    font-family: cursive;
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    transition: 300ms;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.461), 0 0 4rem rgba(0, 0, 0, 0.461), 0 0 8rem rgba(0, 0, 0, 0.461);
+}
+
+.input::placeholder{
+    color: rgba(255, 255, 255, 0.562);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.input:hover{
+    /* background-color: rgba(81, 255, 110, 0.461); */
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.461), 0 0 4rem rgba(81, 255, 110, 0.461), 0 0 8rem rgba(81, 255, 110, 0.461);
+}
+
+    .button{
+        border-radius: 5rem;
+        margin-left: 1rem;
+        margin-top: .1rem;
+        margin-bottom: .4rem;
+        height: 3rem;
+        width: 11rem;
+        background: linear-gradient(rgba(211, 243, 7, 0.671), rgba(3, 104, 53, 0.556));
+        border: transparent;
+        font-family: cursive;
+        font-size: 15px;
+        font-weight: bold;
+        transition: 300ms;
+        color:rgba(2, 7, 1, 0.89)
+    }
+    
+    .button:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        color: white;
+        background-color: #33ff0044;
+        box-shadow: 0 0 1rem #0000009b, 0 0 4rem #33ff009b, 0 0 8rem #0000009b;
+    }
+
+ 
+
+            
+       
+        
+    
