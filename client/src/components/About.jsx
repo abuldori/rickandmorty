@@ -54,7 +54,7 @@ const AboutUs = () => {
               <p className={style.descrip}>
               <h1 className={style.h1}>💫 Acerca de mí:</h1>
               <br/>
-              ¡Hola a todos! <br /> Me complace presentarles mi proyecto integrador "Rick and Morty". <br /> Con esta aplicación, los usuarios pueden explorar el universo de Rick and Morty, gracias a que les permiten buscar personajes específicos por su id o buscar personajes aleatorios. <br /> Además, la aplicación incluye una sección de favoritos para que los usuarios puedan guardar sus personajes preferidos y aplicar a los mismos filtros combinados. <br />En resumen, "Rick and Morty" es un proyecto integrador impresionante que demuestra el potencial de la tecnología para crear buenas experiencias de usuarios en línea.
+              ¡Hola a todos! <br /> Hoy les presento mi proyecto integrador: "Rick and Morty". <br /> Con esta aplicación, podrán explorar el increíble universo de Rick and Morty, buscar personajes específicos por su id o descubrir personajes aleatorios. <br /> También podrán guardar sus personajes favoritos y aplicar filtros combinados. ¡Es una experiencia impresionante que muestra el potencial de la tecnología para brindar grandes experiencias en línea! <br /> ¡Gracias por su atención y los invito a disfrutar de "Rick and Morty"!
                 <br />
                 </p>
             </div>
